@@ -650,11 +650,6 @@ html,body{
     text-align: center;
   }
   
-  .box-container .box img {
-    height: 12rem;
-    padding: 1rem;
-  }
-  
   .box-container .box h3 {
     color: var(--blue);
     font-size: 2rem;
