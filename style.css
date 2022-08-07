@@ -62,6 +62,11 @@ section{
     transform: scale(1.1);
 }
 
+.example:hover{
+    color: #DC143C;
+}
+
+
 .heading{
     text-align: center;
     background:var(--gradient);
@@ -211,9 +216,7 @@ h2{
     padding: 30px 0;
 }
 
-.table-wrapper{
-  word-spacing: 1rem;
-}
+
 
 .about{
 
