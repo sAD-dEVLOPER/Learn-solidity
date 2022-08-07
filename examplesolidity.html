@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title">Learn Solidity</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+
+<header>
+
+   <a href="#" class="logo"><span align="center">Learn Solidity</span></a>
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar" class="fas fa-bars"></label>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#intro">intro</a>
+        <a href="#contact">use</a>
+    </nav>
+
+</header>
+
+<body>
+    
+    <div class="container">
+ <h1>Solidity by Example</h1>
+ <h2 style="font-size: 3rem;">voting</h2>
+ <h2>The following contract is quite complex, but it demonstrates many features of Solidity. She enforces voting agreements. Of course, the main problem with electronic voting is assigning voting rights to the right people and preventing manipulation. I won't solve all your problems here, but at least I'll show you how to do delegated voting so that vote tallying is automated and at the same time completely transparent.</h2>
+
+<br>
+<h2>The idea is to create one contract for her per vote and give each option a short name. Each address is then individually given voting rights by the contract writer, acting as chairman.
+    People behind
+    addresses can choose to vote for themselves or delegate their votes to someone they trust.</h2>
+
+<h2 style="font-size: 3rem;">Blind Auction</h2>
+<h2>This section shows how easy it is to create a fully blind auction contract on Ethereum. Starting with open auctions where anyone can see submitted bids, we extend this agreement to blind auctions where actual bids are shown after the bidding period ends.</h2>
+
+
+<h2 style="font-size: 3rem;">Simple Open Auction</h2>
+<h2>The general idea of the following simple auction contract is that everyone can send their bids during a bidding period. The bids already include sending money / Ether in order to bind the bidders to their bid. If the highest bid is raised, the previous highest bidder gets their money back. After the end of the bidding period, the contract has to be called manually for the beneficiary to receive their money - contracts cannot activate themselves.</h2>
+    
+
+<h2 style="font-size: 3rem;">Safe Remote Purchase</h2>
+<h2>Currently, purchasing goods remotely requires multiple parties who must trust each other. The simplest configuration involves a seller and a buyer. The buyer wants to receive goods from the seller, and the seller wants to receive money (or equivalent) for it. The issue here is shipping. There is no way to confirm that the item has been delivered to the buyer.
+
+    There are several ways to fix this problem, but they all fail in some way. Both parties must enter into the contract twice the value of the goods in escrow. Once this is done, the money remains locked in the contract until the buyer confirms that they have received the item. The buyer then receives the value (half of the deposit) and the seller receives three times his value (the deposit plus the value). The idea behind this is that both parties have an incentive to resolve the situation. Otherwise their money will be permanently locked.</h2>
+
+</div>
+</body>
